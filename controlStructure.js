@@ -8,8 +8,8 @@ const rl = readline.createInterface({
 rl.question("Enter starting number: ", (startInput) => {
     rl.question("Enter ending number: ", (endInput) => {
 
-        const start = Number(15);
-        const end = Number(30);
+        const start = Number(startInput);
+        const end = Number(endInput);
 
         for (let i = start; i <= end; i++) {
             console.log(i);
